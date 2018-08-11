@@ -9,9 +9,22 @@
 *								Circular Queue
 ******************************************************************************/
 
+/******************************************************************************
+*						 Multiple Inclusion Protection
+******************************************************************************/
+#ifndef QUEUE_H
+#define QUEUE_H
+
+
+/******************************************************************************
+*								  Includes
+******************************************************************************/
 #include <stdint.h>
 #include <stdbool.h>
 
+/******************************************************************************
+*							    Global Structs
+******************************************************************************/
 typedef struct {
 	uint8_t* start;
 	uint8_t* end;
@@ -19,6 +32,9 @@ typedef struct {
 } Queue_t;
 
 
+/******************************************************************************
+*							   Global Functions
+******************************************************************************/
 Queue_t* createQueue(uint16_t size);
 void freeQueue(Queue_t* queue);
 uint8_t queuePeek(Queue_t* queue);
@@ -26,3 +42,5 @@ uint8_t queuePop(Queue_t* queue);
 void queuePush(Queue_t* queue, uint8_t value);
 bool queueEmpty(Queue_t* queue);
 bool queueFull(Queue_t* queue);
+
+#endif // QUEUE_H

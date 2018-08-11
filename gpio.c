@@ -1,11 +1,43 @@
+/******************************************************************************
+*
+* Project:	K64F_ethernet
+* Author:	Noah Lutz
+*
+* ----------------------------------------------------------------------------
+*                                  gpio.c
+*
+*							GPIO Helper Functions
+******************************************************************************/
 
+/******************************************************************************
+*								Includes
+******************************************************************************/
 #include "gpio.h"
 
+
+/******************************************************************************
+*							Global Variables
+******************************************************************************/
 gpioPin_t IO_LED_RED = {PORTB, PTB, 22};
 gpioPin_t IO_LED_BLUE = {PORTB, PTB, 21};
 gpioPin_t IO_LED_GREEN = {PORTE, PTE, 26};
 
 
+/******************************************************************************
+*							Global Functions
+******************************************************************************/
+
+/******************************************************************************
+*
+* Function:		initPins()
+*
+* Description:	Initializes pins
+*
+* Parameters:	None
+*
+* Returns:		None
+*
+******************************************************************************/
 void initPins(void) {
     // Enable ports
     SIM_SCGC5 |= (SIM_SCGC5_PORTB_MASK | SIM_SCGC5_PORTE_MASK);
@@ -26,11 +58,32 @@ void initPins(void) {
     outputHigh(&IO_LED_GREEN);
 }
 
-
+/******************************************************************************
+*
+* Function:		outputHigh()
+*
+* Description:	Configures a GPIO pin to ouput a logic high
+*
+* Parameters:	pin - 
+*
+* Returns:		None
+*
+******************************************************************************/
 void outputHigh(const gpioPin_t* const pin) {
     pin->gpio->PSOR |= (uint32_t)0x00000001 << pin->pinNum;
 }
 
+/******************************************************************************
+*
+* Function:		outputLow()
+*
+* Description:	Configures a GPIO pin to ouput a logic low
+*
+* Parameters:	pin - 
+*
+* Returns:		None
+*
+******************************************************************************/
 void outputLow(const gpioPin_t* const pin) {
     pin->gpio->PCOR |= (uint32_t)0x00000001 << pin->pinNum;
 }
