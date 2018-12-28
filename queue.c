@@ -46,19 +46,20 @@ typedef struct {
 *
 ******************************************************************************/
 Queue_t* createQueue(uint16_t size) {
-	PrivateQueue_t* queue;
+	//PrivateQueue_t* queue;
 
 	// Allocate memory for buffer
-	uint8_t* buffer = malloc(size);
+	uint8_t* buffer = (uint8_t*) malloc(size);
 
-	queue->start = buffer;
-	queue->end = buffer + size;
-	queue->size = size;
-	queue->numItems = 0;
-	queue->inPtr = buffer;
-	queue->outPtr = buffer;
+	//queue->start = buffer;
+	//queue->end = buffer + size;
+	//queue->size = size;
+	//queue->numItems = 0;
+	//queue->inPtr = buffer;
+	//queue->outPtr = buffer;
 
-	return (Queue_t*) queue;
+	//return (Queue_t*) queue;
+	return NULL;
 }
 
 /******************************************************************************
