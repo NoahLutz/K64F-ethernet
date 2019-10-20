@@ -1,0 +1,186 @@
+total 4
+drwxr-xr-x  22 root root          3700 Feb 11 21:23 .
+drwxr-xr-x  17 root root          4096 Jan  4 19:03 ..
+crw-------   1 root root       10,  52 Feb 11 19:07 acpi_thermal_rel
+crw-r--r--   1 root root       10, 235 Feb 11 19:07 autofs
+drwxr-xr-x   2 root root           140 Feb 11 19:07 block
+drwxr-xr-x   2 root root            80 Feb 11 19:07 bsg
+crw-------   1 root root       10, 234 Feb 11 19:07 btrfs-control
+drwxr-xr-x   3 root root            60 Feb 11 19:07 bus
+drwxr-xr-x   2 root root          3840 Feb 13 18:41 char
+crw-------   1 root root        5,   1 Feb 11 19:07 console
+lrwxrwxrwx   1 root root            11 Feb 11 19:07 core -> /proc/kcore
+drwxr-xr-x   6 root root           140 Feb 13 18:41 cpu
+crw-------   1 root root       10,  60 Feb 11 19:07 cpu_dma_latency
+crw-------   1 root root       10, 203 Feb 11 19:07 cuse
+drwxr-xr-x   7 root root           140 Feb 11 19:07 disk
+drwxr-xr-x   3 root root           140 Feb 11 19:07 dri
+crw-------   1 root root      240,   0 Feb 11 19:07 drm_dp_aux0
+crw-------   1 root root      240,   1 Feb 11 19:07 drm_dp_aux1
+crw-------   1 root root      240,   2 Feb 11 19:07 drm_dp_aux2
+crw-rw----   1 root video      29,   0 Feb 11 19:07 fb0
+lrwxrwxrwx   1 root root            13 Feb 11 19:07 fd -> /proc/self/fd
+crw-------   1 root root       10,  53 Feb 11 19:07 freefall
+crw-rw-rw-   1 root root        1,   7 Feb 11 19:07 full
+crw-rw-rw-   1 root root       10, 229 Feb 11 19:07 fuse
+crw-------   1 root root      241,   0 Feb 11 19:07 hidraw0
+crw-------   1 root root       10, 228 Feb 11 19:07 hpet
+drwxr-xr-x   2 root root             0 Feb 11 19:07 hugepages
+crw-------   1 root root       10, 183 Feb 11 19:07 hwrng
+lrwxrwxrwx   1 root root            12 Feb 11 19:07 initctl -> /run/initctl
+drwxr-xr-x   4 root root           480 Feb 11 19:07 input
+crw-r--r--   1 root root        1,  11 Feb 11 19:07 kmsg
+crw-rw-rw-   1 root kvm        10, 232 Feb 11 19:07 kvm
+drwxr-xr-x   2 root root            60 Feb 11 19:07 lightnvm
+lrwxrwxrwx   1 root root            28 Feb 11 19:07 log -> /run/systemd/journal/dev-log
+crw-rw----   1 root disk       10, 237 Feb 11 19:07 loop-control
+drwxr-xr-x   2 root root            60 Feb 11 19:07 mapper
+crw-rw----   1 root video     237,   0 Feb 11 19:07 media0
+crw-------   1 root root      242,   0 Feb 11 19:07 mei0
+crw-r-----   1 root kmem        1,   1 Feb 11 19:07 mem
+crw-------   1 root root       10,  57 Feb 11 19:07 memory_bandwidth
+drwxrwxrwt   2 root root            40 Feb 11 19:07 mqueue
+drwxr-xr-x   2 root root            60 Feb 11 19:07 net
+crw-------   1 root root       10,  59 Feb 11 19:07 network_latency
+crw-------   1 root root       10,  58 Feb 11 19:07 network_throughput
+crw-rw-rw-   1 root root        1,   3 Feb 11 19:07 null
+crw-r-----   1 root kmem        1,   4 Feb 11 19:07 port
+crw-------   1 root root      108,   0 Feb 11 19:07 ppp
+crw-------   1 root root       10,   1 Feb 11 19:07 psaux
+crw-rw-rw-   1 root tty         5,   2 Feb 13 19:08 ptmx
+drwxr-xr-x   2 root root             0 Feb 11 19:07 pts
+crw-rw-rw-   1 root root        1,   8 Feb 11 19:07 random
+crw-rw-r--+  1 root rfkill     10,  51 Feb 11 19:07 rfkill
+lrwxrwxrwx   1 root root             4 Feb 11 19:07 rtc -> rtc0
+crw-------   1 root root      250,   0 Feb 11 19:07 rtc0
+brw-rw----   1 root disk        8,   0 Feb 11 19:07 sda
+brw-rw----   1 root disk        8,   1 Feb 11 19:07 sda1
+brw-rw----   1 root disk        8,   2 Feb 11 19:07 sda2
+brw-rw----   1 root disk        8,  16 Feb 11 19:07 sdb
+brw-rw----   1 root disk        8,  17 Feb 11 19:07 sdb1
+crw-rw----   1 root disk       21,   0 Feb 11 19:07 sg0
+crw-rw----   1 root disk       21,   1 Feb 11 19:07 sg1
+drwxrwxrwt   2 root root            40 Feb 13 19:08 shm
+crw-------   1 root root       10, 231 Feb 11 19:07 snapshot
+drwxr-xr-x   3 root root           300 Feb 11 19:07 snd
+lrwxrwxrwx   1 root root            15 Feb 11 19:07 stderr -> /proc/self/fd/2
+lrwxrwxrwx   1 root root            15 Feb 11 19:07 stdin -> /proc/self/fd/0
+lrwxrwxrwx   1 root root            15 Feb 11 19:07 stdout -> /proc/self/fd/1
+crw-------   1 root root       10, 224 Feb 11 19:07 tpm0
+crw-rw-rw-   1 root tty         5,   0 Feb 12 20:38 tty
+crw--w----   1 root tty         4,   0 Feb 11 19:07 tty0
+crw--w----   1 root tty         4,   1 Feb 11 19:07 tty1
+crw--w----   1 root tty         4,  10 Feb 11 19:07 tty10
+crw--w----   1 root tty         4,  11 Feb 11 19:07 tty11
+crw--w----   1 root tty         4,  12 Feb 11 19:07 tty12
+crw--w----   1 root tty         4,  13 Feb 11 19:07 tty13
+crw--w----   1 root tty         4,  14 Feb 11 19:07 tty14
+crw--w----   1 root tty         4,  15 Feb 11 19:07 tty15
+crw--w----   1 root tty         4,  16 Feb 11 19:07 tty16
+crw--w----   1 root tty         4,  17 Feb 11 19:07 tty17
+crw--w----   1 root tty         4,  18 Feb 11 19:07 tty18
+crw--w----   1 root tty         4,  19 Feb 11 19:07 tty19
+crw--w----   1 root tty         4,   2 Feb 11 19:07 tty2
+crw--w----   1 root tty         4,  20 Feb 11 19:07 tty20
+crw--w----   1 root tty         4,  21 Feb 11 19:07 tty21
+crw--w----   1 root tty         4,  22 Feb 11 19:07 tty22
+crw--w----   1 root tty         4,  23 Feb 11 19:07 tty23
+crw--w----   1 root tty         4,  24 Feb 11 19:07 tty24
+crw--w----   1 root tty         4,  25 Feb 11 19:07 tty25
+crw--w----   1 root tty         4,  26 Feb 11 19:07 tty26
+crw--w----   1 root tty         4,  27 Feb 11 19:07 tty27
+crw--w----   1 root tty         4,  28 Feb 11 19:07 tty28
+crw--w----   1 root tty         4,  29 Feb 11 19:07 tty29
+crw--w----   1 root tty         4,   3 Feb 11 19:07 tty3
+crw--w----   1 root tty         4,  30 Feb 11 19:07 tty30
+crw--w----   1 root tty         4,  31 Feb 11 19:07 tty31
+crw--w----   1 root tty         4,  32 Feb 11 19:07 tty32
+crw--w----   1 root tty         4,  33 Feb 11 19:07 tty33
+crw--w----   1 root tty         4,  34 Feb 11 19:07 tty34
+crw--w----   1 root tty         4,  35 Feb 11 19:07 tty35
+crw--w----   1 root tty         4,  36 Feb 11 19:07 tty36
+crw--w----   1 root tty         4,  37 Feb 11 19:07 tty37
+crw--w----   1 root tty         4,  38 Feb 11 19:07 tty38
+crw--w----   1 root tty         4,  39 Feb 11 19:07 tty39
+crw--w----   1 root tty         4,   4 Feb 11 19:07 tty4
+crw--w----   1 root tty         4,  40 Feb 11 19:07 tty40
+crw--w----   1 root tty         4,  41 Feb 11 19:07 tty41
+crw--w----   1 root tty         4,  42 Feb 11 19:07 tty42
+crw--w----   1 root tty         4,  43 Feb 11 19:07 tty43
+crw--w----   1 root tty         4,  44 Feb 11 19:07 tty44
+crw--w----   1 root tty         4,  45 Feb 11 19:07 tty45
+crw--w----   1 root tty         4,  46 Feb 11 19:07 tty46
+crw--w----   1 root tty         4,  47 Feb 11 19:07 tty47
+crw--w----   1 root tty         4,  48 Feb 11 19:07 tty48
+crw--w----   1 root tty         4,  49 Feb 11 19:07 tty49
+crw--w----   1 root tty         4,   5 Feb 11 19:07 tty5
+crw--w----   1 root tty         4,  50 Feb 11 19:07 tty50
+crw--w----   1 root tty         4,  51 Feb 11 19:07 tty51
+crw--w----   1 root tty         4,  52 Feb 11 19:07 tty52
+crw--w----   1 root tty         4,  53 Feb 11 19:07 tty53
+crw--w----   1 root tty         4,  54 Feb 11 19:07 tty54
+crw--w----   1 root tty         4,  55 Feb 11 19:07 tty55
+crw--w----   1 root tty         4,  56 Feb 11 19:07 tty56
+crw--w----   1 root tty         4,  57 Feb 11 19:07 tty57
+crw--w----   1 root tty         4,  58 Feb 11 19:07 tty58
+crw--w----   1 root tty         4,  59 Feb 11 19:07 tty59
+crw--w----   1 root tty         4,   6 Feb 11 19:07 tty6
+crw--w----   1 root tty         4,  60 Feb 11 19:07 tty60
+crw--w----   1 root tty         4,  61 Feb 11 19:07 tty61
+crw--w----   1 root tty         4,  62 Feb 11 19:07 tty62
+crw--w----   1 root tty         4,  63 Feb 11 19:07 tty63
+crw--w----   1 root tty         4,   7 Feb 11 19:07 tty7
+crw--w----   1 root tty         4,   8 Feb 11 19:07 tty8
+crw--w----   1 root tty         4,   9 Feb 11 19:07 tty9
+crw-rw----   1 root uucp        4,  64 Feb 11 19:07 ttyS0
+crw-rw----   1 root uucp        4,  65 Feb 11 19:07 ttyS1
+crw-rw----   1 root uucp        4,  66 Feb 11 19:07 ttyS2
+crw-rw----   1 root uucp        4,  67 Feb 11 19:07 ttyS3
+crw-------   1 root root       10,  61 Feb 11 19:07 udmabuf
+crw-------   1 root root       10, 239 Feb 11 19:07 uhid
+crw-------   1 root root       10, 223 Feb 11 19:07 uinput
+crw-rw-rw-   1 root root        1,   9 Feb 11 19:07 urandom
+crw-------   1 root root       10, 240 Feb 11 19:07 userio
+drwxr-xr-x   4 root root            80 Feb 11 19:07 v4l
+crw-------   1 root root       10,  56 Feb 11 19:07 vboxdrv
+crw-rw-rw-   1 root root       10,  55 Feb 11 19:07 vboxdrvu
+crw-------   1 root root       10,  54 Feb 11 19:07 vboxnetctl
+drwxr-x---   3 root vboxusers       60 Feb 11 19:07 vboxusb
+crw-rw----   1 root tty         7,   0 Feb 11 19:07 vcs
+crw-rw----   1 root tty         7,   1 Feb 11 19:07 vcs1
+crw-rw----   1 root tty         7,   2 Feb 11 19:07 vcs2
+crw-rw----   1 root tty         7,   3 Feb 11 19:07 vcs3
+crw-rw----   1 root tty         7,   4 Feb 11 19:07 vcs4
+crw-rw----   1 root tty         7,   5 Feb 11 19:07 vcs5
+crw-rw----   1 root tty         7,   6 Feb 11 19:07 vcs6
+crw-rw----   1 root tty         7,   7 Feb 11 19:07 vcs7
+crw-rw----   1 root tty         7,   8 Feb 11 21:23 vcs8
+crw-rw----   1 root tty         7, 128 Feb 11 19:07 vcsa
+crw-rw----   1 root tty         7, 129 Feb 11 19:07 vcsa1
+crw-rw----   1 root tty         7, 130 Feb 11 19:07 vcsa2
+crw-rw----   1 root tty         7, 131 Feb 11 19:07 vcsa3
+crw-rw----   1 root tty         7, 132 Feb 11 19:07 vcsa4
+crw-rw----   1 root tty         7, 133 Feb 11 19:07 vcsa5
+crw-rw----   1 root tty         7, 134 Feb 11 19:07 vcsa6
+crw-rw----   1 root tty         7, 135 Feb 11 19:07 vcsa7
+crw-rw----   1 root tty         7, 136 Feb 11 21:23 vcsa8
+crw-rw----   1 root tty         7,  64 Feb 11 19:07 vcsu
+crw-rw----   1 root tty         7,  65 Feb 11 19:07 vcsu1
+crw-rw----   1 root tty         7,  66 Feb 11 19:07 vcsu2
+crw-rw----   1 root tty         7,  67 Feb 11 19:07 vcsu3
+crw-rw----   1 root tty         7,  68 Feb 11 19:07 vcsu4
+crw-rw----   1 root tty         7,  69 Feb 11 19:07 vcsu5
+crw-rw----   1 root tty         7,  70 Feb 11 19:07 vcsu6
+crw-rw----   1 root tty         7,  71 Feb 11 19:07 vcsu7
+crw-rw----   1 root tty         7,  72 Feb 11 21:23 vcsu8
+drwxr-xr-x   2 root root            60 Feb 11 19:07 vfio
+crw-------   1 root root       10,  63 Feb 11 19:07 vga_arbiter
+crw-------   1 root root       10, 137 Feb 11 19:07 vhci
+crw-------   1 root root       10, 238 Feb 11 19:07 vhost-net
+crw-------   1 root root       10, 241 Feb 11 19:07 vhost-vsock
+crw-rw----+  1 root video      81,   0 Feb 11 19:07 video0
+crw-rw----+  1 root video      81,   1 Feb 11 19:07 video1
+crw-------   1 root root       10, 130 Feb 11 19:07 watchdog
+crw-------   1 root root      246,   0 Feb 11 19:07 watchdog0
+drwxr-xr-x   2 root root            60 Feb 11 19:07 wmi
+crw-rw-rw-   1 root root        1,   5 Feb 11 19:07 zero

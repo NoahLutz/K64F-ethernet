@@ -10,11 +10,11 @@ unsigned char malloc_mempool[1024u];
 int main(int argc, char **argv) {
     SystemInit();
 
-    //init_mempool(&malloc_mempool, sizeof(malloc_mempool));
+    init_mempool(&malloc_mempool, sizeof(malloc_mempool));
 	
-    //initPins();
+    initPins();
     
-    //outputLow(&IO_LED_GREEN);
+    outputLow(&IO_LED_GREEN);
 
 	//Queue_t* queue = createQueue(4);
 
